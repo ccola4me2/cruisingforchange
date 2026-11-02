@@ -1583,7 +1583,7 @@ blockquote.quote-card {
 }
 
 /* Photo of the first pitch, inside the "How It Started" story */
-.pitch-photo { margin: var(--space-4) auto; max-width: 560px; text-align: center; }
+.pitch-photo { margin: var(--space-4) auto; max-width: 463px; text-align: center; }
 .pitch-photo img {
   width: 100%;
   height: auto;
