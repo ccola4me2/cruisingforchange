@@ -1598,3 +1598,11 @@ blockquote.quote-card {
   font-size: 1.05rem;
   color: var(--ink-soft);
 }
+
+/* Full Cruising for Change logo (white lettering) in the header and footer */
+.brand-logo { height: 64px; width: auto; }
+.footer-brand img.footer-logo {
+  width: 160px; height: auto;
+  border-radius: 0; background: none; border: 0;
+}
+@media (max-width: 720px) { .brand-logo { height: 52px; } }
