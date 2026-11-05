@@ -1332,8 +1332,7 @@ blockquote.quote-card {
    ----------------------------------------------------------- */
 .page-hero {
   background:
-    linear-gradient(100deg, rgba(6, 15, 28, 0.92), rgba(8, 22, 39, 0.75)),
-    url("../assets/img/ship-exterior.jpg") center 30% / cover no-repeat;
+    linear-gradient(100deg, rgba(6, 15, 28, 0.92), rgba(8, 22, 39, 0.75));
   color: var(--white);
   padding: var(--space-6) 0 var(--space-5);
   text-align: center;
@@ -1358,8 +1357,7 @@ blockquote.quote-card {
    ----------------------------------------------------------- */
 .footer-cta {
   background:
-    linear-gradient(to bottom, rgba(6, 15, 28, 0.55), rgba(6, 15, 28, 0.9)),
-    url("../assets/img/five-oclock-somewhere.jpg") center 40% / cover no-repeat;
+    linear-gradient(to bottom, rgba(6, 15, 28, 0.55), rgba(6, 15, 28, 0.9));
   text-align: center;
   padding: var(--space-6) 0;
   color: var(--white);
@@ -1606,3 +1604,19 @@ blockquote.quote-card {
   border-radius: 0; background: none; border: 0;
 }
 @media (max-width: 720px) { .brand-logo { height: 52px; } }
+
+/* Photos from the PHC site that this site does not carry: gradients only */
+.footer-cta { background: linear-gradient(180deg, var(--navy-700) 0%, var(--navy-950) 100%); }
+.page-hero.board-hero {
+  background: linear-gradient(180deg, #2a78b8 0%, #1a5a92 40%, #123152 75%, #081627 100%);
+}
+.board-hero .hero-script { display: block; margin-bottom: var(--space-1); }
+
+/* Board of Directors: five cards, centred so the last row sits in the middle */
+.board-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-4);
+}
+.board-grid .team-card { flex: 0 1 300px; }
